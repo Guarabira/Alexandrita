@@ -5,6 +5,20 @@ O pequeno script abaixo tem como objetivo editar e mudar as cores de anotações
 # Bibliotecas externas requeridas
 Para utilizar esse script, você precisa instalar essas 3 bibliotecas:numpy, pillow e pymupdf.Dependendo do seu sistema ou ambiente de desenvolvimento, os meios para instalar essas bibliotecas podem varias:
 
+Vscodium ou Vscode
 ```
 pip install pillow pymupdf numpy
-``
+```
+
+Distros linux baseadas no Debain
+```bash
+sudo apt update
+sudo apt install python3 python3-pip
+sudo apt install build-essential
+pip3 install pillow pymupdf numpy
+```
+
+Windows
+```cmd
+pip install pillow pymupdf numpy
+```
