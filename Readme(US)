@@ -1,0 +1,36 @@
+# Alexandrite
+
+The small script below aims to edit and change the colors of handwritten notes in png, jpg, or pdf formats. It was made to quickly and easily beautify notes in Obsidian, but some might want to use it for various purposes. The program was named Alexandrite because it is the name of a gemstone that can change color.
+
+# About Paper and Pen
+## Paper
+The program should be intelligent enough to detect the color of the paper you are using. Although I have currently only tested it with standard white A4 paper, in theory, it should work with paper of any color.
+
+## Pen
+This script only works with a black pen. If you use another color, you can change the pen color on line 126. However, the effectiveness of the program may be questionable. Modifying the pen tolerance on line 26 might help.
+
+# Required External Libraries
+To use this script, you need to install these 3 libraries: numpy, pillow, and pymupdf. Depending on your system or development environment, the methods to install these libraries may vary:
+
+Vscodium or Vscode
+```
+pip install pillow pymupdf numpy
+```
+
+Debian-based Linux Distros
+```bash
+sudo apt update
+sudo apt install python3 python3-pip
+sudo apt install build-essential
+pip3 install pillow pymupdf numpy
+```
+
+Windows
+```cmd
+pip install pillow pymupdf numpy
+```
+# How to Use
+1. Set the input path where your PDFs or images to be processed should be placed (line 152).
+2. Logically, you should also set the output folder where the processed files should go (line 153).
+3. You can determine the output pen color with any RGB color you want, or you can choose the Catppuccin Mocha options provided in the script (line 65).
+4. Finally, there is also the possibility to change the background color (line 47).
