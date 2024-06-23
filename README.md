@@ -1,4 +1,4 @@
-# Alexandrita
+# Alexandrita(PT-BR)
 
 O pequeno script abaixo tem como objetivo editar e mudar as cores de anotações manuscritas em png,jpg ou pdf. Ele foi feito para embelezar de forma simples e rápida as anotações do obsidian, mas talvez alguns queiram usar para objetivos diversos. O programa foi batizado de alexandrita porque é o nome de uma pedra preciosa que é capaz de mudar de cor.
 
